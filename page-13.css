@@ -47,7 +47,6 @@ font-size: 40px;
 
 .vertical {
      border-left: 1px solid #dee2e627;
-
     height: 60px;
     position:absolute;
     left: 50%;
@@ -151,6 +150,11 @@ text-align: left;
     color: #191D2A;
     text-align: left;
     opacity: 50%;
+}
+
+.calender-box p{
+    font-size: 16px;
+    color: #191D2A;
 }
 
 .calendar-div .date{
@@ -267,13 +271,14 @@ text-align: left;
 
  }
 
-
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
 .btn-page-17{
     margin: 0 auto;
 }
 
+
+}
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
